@@ -1,0 +1,20 @@
+.contentSection {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 13px;
+  color: var(--color-accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.accent {
+  color: var(--color-accent);
+}

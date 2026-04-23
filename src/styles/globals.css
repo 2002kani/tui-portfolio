@@ -1,0 +1,40 @@
+:root {
+  --color-bg: #1a1a1a;
+  --color-surface: #222;
+  --color-border: #333;
+  --color-border-md: #444;
+
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #aaa;
+  --color-text-muted: #777;
+  --color-text-dim: #555;
+
+  --color-accent: #e05a1b;
+
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  min-height: 100vh;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

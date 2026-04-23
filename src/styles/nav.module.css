@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 18px 32px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.brand {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.05em;
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.item {
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: var(--color-text-secondary);
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: color 0.2s;
+}
+
+.item:hover {
+  color: var(--color-text-primary);
+}
+
+.itemActive {
+  background: var(--color-accent);
+  color: #fff;
+}

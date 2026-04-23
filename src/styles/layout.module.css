@@ -1,0 +1,36 @@
+.root {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminalBox {
+  border: 1px solid var(--color-border-md);
+  border-radius: 4px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 480px;
+}
+
+.footer {
+  padding: 12px 32px;
+  border-top: 1px solid #2a2a2a;
+  font-size: 12px;
+  color: var(--color-text-dim);
+  letter-spacing: 0.06em;
+  text-align: center;
+}
