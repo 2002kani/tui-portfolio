@@ -5,7 +5,7 @@
 
 .asciiArt {
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 20px;
   line-height: 1.25;
   color: #f0f0f0;
   white-space: pre;
@@ -35,4 +35,14 @@
   vertical-align: middle;
   margin-left: 4px;
   animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }

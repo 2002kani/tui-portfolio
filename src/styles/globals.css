@@ -1,17 +1,17 @@
 :root {
-  --color-bg: #1a1a1a;
+  --color-bg: #1e1e1e;
   --color-surface: #222;
   --color-border: #333;
-  --color-border-md: #444;
+  --color-border-md: #f5f5f5;
 
   --color-text-primary: #e8e8e8;
   --color-text-secondary: #aaa;
   --color-text-muted: #777;
   --color-text-dim: #555;
 
-  --color-accent: #e05a1b;
+  --color-accent: #00aa55;
 
-  --font-mono: "Courier New", Courier, monospace;
+  --font-mono: "Geist Mono", monospace;
 }
 
 *,
