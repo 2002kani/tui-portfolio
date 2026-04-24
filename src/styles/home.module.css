@@ -5,7 +5,7 @@
 
 .asciiArt {
   font-family: var(--font-mono);
-  font-size: 20px;
+  font-size: 1.5vw;
   line-height: 1.25;
   color: #f0f0f0;
   white-space: pre;

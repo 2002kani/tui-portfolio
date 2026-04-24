@@ -7,7 +7,8 @@ function Home() {
     <div className={styles.homeCenter}>
       <pre className={styles.asciiArt}>{KANI_ASCII}</pre>
       <p className={styles.subtitle}>
-        Software Developer &amp; Business-Economics student
+        Software Developer <span style={{ color: "#00aa55" }}>&amp;</span>{" "}
+        Business-Economics student
         <br />
         <span className={styles.subtitleMuted}>Tui Inspired by theSa1</span>
         <Cursor />
