@@ -41,7 +41,6 @@ function App() {
 
   return (
     <div className={layoutStyles.root}>
-      {/* Nav */}
       <nav className={navStyles.nav}>
         <span className={navStyles.brand}>Kani Karadag</span>
         <ul className={navStyles.links}>
@@ -60,14 +59,12 @@ function App() {
         </ul>
       </nav>
 
-      {/* Main */}
       <main className={layoutStyles.main}>
         <div className={layoutStyles.terminalBox}>{renderPage()}</div>
       </main>
 
-      {/* Footer */}
       <footer className={layoutStyles.footer}>
-        <p style={{ color: " aaa" }}>
+        <p style={{ color: "#aaa" }}>
           Press &apos;q&apos; to quit &nbsp;|&nbsp; Use arrow keys to navigate
         </p>
       </footer>
