@@ -32,3 +32,53 @@
   width: 60px;
   flex-shrink: 0;
 }
+
+.terminalBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.command {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.pingList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+.pingLine {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #bbb;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.pingLine:hover {
+  color: var(--color-accent);
+}
+.pingLabel {
+  color: var(--color-accent);
+  width: 80px;
+  flex-shrink: 0;
+}
+.pingDots {
+  color: #333;
+  letter-spacing: 4px;
+  flex: 1;
+}
+.pingValue {
+  color: #bbb;
+}
+.pingStatus {
+  color: #4caf50;
+  font-size: 11px;
+  margin-left: auto;
+}
+.pingFooter {
+  color: #555;
+  font-size: 12px;
+}

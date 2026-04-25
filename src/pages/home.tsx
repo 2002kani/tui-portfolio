@@ -10,7 +10,7 @@ function Home() {
         Software Developer <span style={{ color: "#00aa55" }}>&amp;</span>{" "}
         Business-Economics student
         <br />
-        <span className={styles.subtitleMuted}>Tui Inspired by theSa1</span>
+        <span className={styles.subtitleMuted}>tui inspired portfolio</span>
         <Cursor />
       </p>
     </div>

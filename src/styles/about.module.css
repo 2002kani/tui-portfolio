@@ -30,3 +30,31 @@
   border-color: var(--color-accent);
   color: var(--color-accent);
 }
+
+.splitLayout {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 40px;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 1px solid #333;
+  padding-left: 32px;
+}
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.statNumber {
+  font-size: 28px;
+  color: var(--color-accent);
+}
+.statLabel {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
