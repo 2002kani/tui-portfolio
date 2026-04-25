@@ -13,4 +13,5 @@ export interface Project {
   description: string;
   tags: string[];
   href: string;
+  category: "fullstack" | "backend";
 }

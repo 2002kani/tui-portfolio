@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  height: 45vh;
+  overflow-y: auto;
+  padding-right: 8px;
 }
 
 .projectItem {
@@ -39,7 +42,15 @@
 .tag {
   font-size: 11px;
   color: var(--color-accent);
-  border: 1px solid rgba(224, 90, 27, 0.2);
+  border: 1px solid #00572c;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.legacyTag {
+  font-size: 11px;
+  color: #ff5f3b;
+  border: 1px solid #86311e;
   padding: 2px 8px;
   border-radius: 2px;
 }
@@ -59,4 +70,64 @@
 }
 .projectLink:hover {
   color: var(--color-accent);
+}
+
+.filterBar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filterBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #777;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  padding: 4px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.filterBtn:hover {
+  border-color: #555;
+  color: #aaa;
+}
+
+.filterBtnActive {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.filterCount {
+  font-size: 10px;
+  color: #444;
+}
+
+.filterBtnActive .filterCount {
+  color: var(--color-accent);
+}
+
+.projectsList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.projectsList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projectsList::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+.projectsList::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
 }
