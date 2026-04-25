@@ -34,3 +34,37 @@
   letter-spacing: 0.06em;
   text-align: center;
 }
+
+.shutdownOverlay {
+  position: fixed;
+  inset: 0;
+  background: #0d0d0d;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1.2s ease;
+}
+
+.shutdownBox {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 2;
+  min-width: 380px;
+}
+
+.shutdownLine {
+  letter-spacing: 0.05em;
+  animation: fadeInLine 0.2s ease;
+}
+
+.cursor {
+  display: inline-block;
+  color: var(--color-accent);
+  animation: blink 0.8s step-start infinite;
+}
+
+@keyframes fadeInLine {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
